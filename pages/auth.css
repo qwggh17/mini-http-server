@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #105b10c1; /* фон сайта */
+    color: #cccaca;
+    margin: 140px;
+    text-align: center; /* центрирует весь текст на странице */
+}
+
+h1 {
+    color: #faf3f3;
+    font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+}
+
+a {
+    color: #6b6b6b;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Стилизация кнопок */
+button {
+    padding: 12px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #8c8c8c;
+    color: #ffffff;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+    button:hover {
+        background-color: #6b6b6b;
+        transform: scale(1.03); /* лёгкое увеличение при наведении */
+    }
+
+    button:active {
+        transform: scale(0.97); /* лёгкое "нажатие" при клике */
+    }
+/* Окно авторизации */
+.login-box {
+    max-width: 360px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #90ee902b;
+    border: 3px dotted line;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(11, 10, 10, 0.2);
+}
+
+    .login-box h2 {
+        color: #232323; /* Строка авторизации*/
+        margin-bottom: 20px;
+    }
+
+    .login-box input {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px none;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+.btn-login {
+    background-color: #e0e0e0; /*Кнопка войти*/
+    color: #4a4a4a;
+}
+
+    .btn-login:hover {
+        background-color: #cccccc; /*Цвет при наведении на кнопку*/
+    }
+
+.btn-register {
+    background-color: #e0e0e0; /*Кнопка Регистрация*/
+    color: #4a4a4a;
+    margin-top: 10px;
+}
+
+    .btn-register:hover {
+        background-color: #cccccc; /*Цвет при наведении на кнопку*/
+    }
