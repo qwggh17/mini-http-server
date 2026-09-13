@@ -1,16 +1,8 @@
-body 
-{
+body {
     font-family: Arial, sans-serif;
-    background-color: #0f1f0e;
-    color: white;
-    margin: 40px;
-}
-
-h1 {
-    color: #32CD32;
-}
-
-a
-{
-    color: orange;
+    background-color: #105b10c1; /* фон сайта */
+    color: #cccaca;
+    font-size: 40px;
+    margin: 180px;
+    text-align: center; /* центрирует весь текст на странице */
 }
