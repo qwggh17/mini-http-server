@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #105b10c1; /* фон сайта */
+    color: #cccaca;
+    font-size: 40px;
+    margin: 180px;
+    text-align: center; /* центрирует весь текст на странице */
+}
+
+h1 {
+    color: #faf3f3;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #cccacac7;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+/* Стилизация кнопок */
+.login-button {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 70px;
+    border: 3px dotted lime;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #1c741bc0;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+    /* наведение на кнопку */
+    .login-button:hover {
+        text-decoration: none;
+        background-color: #bd6b4092;
+        transform: scale(1.03);
+    }
+
+    /* нажатие на кнопку */
+    .login-button:active {
+        transform: scale(0.97);
+    }
+
+
